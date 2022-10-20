@@ -1,0 +1,4 @@
+SELECT count(*)
+FROM `students`
+WHERE YEAR(`students`.`date_of_birth`) = 1990;
+
